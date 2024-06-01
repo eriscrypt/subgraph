@@ -41,8 +41,10 @@ $ docker-compose down
 3. You have provided the correct RPC
 4. You have `graph-cli` installed
 
-## Networks and start block
+### Networks and start block
 In `subgraph.yaml` you can find the networks you want to listen to. You need to provide the start block for the network you want to listen to. Also, you can provide the subgraph name and the contract address. Final step is change `networks.json` to the network you want to listen to.
+
+In `docker-compose.yml` you need to change `ethereum` value to the network you want to listen to and provide the correct RPC.
 
 
 

@@ -6,7 +6,7 @@
 yarn install
 ```
 
-## Before running the app
+## Before re-running the app
 
 ```bash
 $ yarn remove-local

@@ -26,4 +26,4 @@ dataSources:
           handler: handleStaked
         - event: Withdraw(indexed address,indexed uint256,uint256)
           handler: handleWithdraw
-      file: ./src/stablecoin-farm.ts
+      file: ./src/mapping.ts

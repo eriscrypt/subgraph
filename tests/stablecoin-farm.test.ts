@@ -9,7 +9,7 @@ import {
 import { Address, BigInt } from "@graphprotocol/graph-ts"
 import { EmergencyWithdraw } from "../generated/schema"
 import { EmergencyWithdraw as EmergencyWithdrawEvent } from "../generated/StablecoinFarm/StablecoinFarm"
-import { handleEmergencyWithdraw } from "../src/stablecoin-farm"
+import { handleEmergencyWithdraw } from "../src/mapping"
 import { createEmergencyWithdrawEvent } from "./stablecoin-farm-utils"
 
 // Tests structure (matchstick-as >=0.5.0)

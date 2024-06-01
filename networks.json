@@ -1,8 +1,8 @@
 {
   "scroll": {
     "StablecoinFarm": {
-      "address": "YOUR_CONTRACT_ADDRESS",
-      "startBlock": "YOUR_BLOCK_NUMBER"
+      "address": "0x29d44c17f4f83b3c77ae2eac4bc1468a496e3196",
+      "startBlock": 5802595
     }
   }
 }

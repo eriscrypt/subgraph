@@ -8,9 +8,9 @@ dataSources:
     name: StablecoinFarm
     network: scroll
     source:
-      address: 'YOUR_CONTRACT_ADDRESS'
+      address: '0x29d44c17f4f83b3c77ae2eac4bc1468a496e3196'
       abi: StablecoinFarm
-      startBlock: YOUR_BLOCK_NUMBER
+      startBlock: 5802595
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7

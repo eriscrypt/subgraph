@@ -34,5 +34,5 @@ typechain-types
 # Hardhat files
 cache
 
-.idea
+.idea/
 .vscode

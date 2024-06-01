@@ -1,12 +1,13 @@
 import { Staked as StakedEvent, Withdraw as WithdrawEvent } from '../generated/StablecoinFarm/StablecoinFarm';
-import { Staked, TotalStats, Withdraw } from '../generated/schema';
+import { Staked, TotalStat, Withdraw } from '../generated/schema';
 import { BigInt } from '@graphprotocol/graph-ts';
 import { EventType } from './types';
 
 function handleUpdateTotalStats(amount: BigInt, eventType: EventType): void {
-  let stats = TotalStats.load('totalStats');
+  let stats = TotalStat.load('total');
+
   if (stats == null) {
-    stats = new TotalStats('totalStats');
+    stats = new TotalStat('total');
     stats.totalStaked = BigInt.fromI32(0);
     stats.totalWithdraw = BigInt.fromI32(0);
   }

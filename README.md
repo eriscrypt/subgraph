@@ -5,11 +5,26 @@
 ```bash
 yarn install
 ```
-
-## Before re-running the app
+## Initial setup
 
 ```bash
+$ npm install -g @graphprotocol/graph-cli
+```
+
+### and then run
+```bash
+$ graph init
+```
+
+## Before re-running the app
+```bash
 $ yarn remove-local
+$ docker-compose down
+```
+### and then run
+
+```bash
+$ rm -rf build & rm -rf data
 $ docker-compose down
 ```
 
